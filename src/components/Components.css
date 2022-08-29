@@ -1,0 +1,18 @@
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.block {
+  margin: 1% auto;
+  width: 60%;
+  padding: 1%;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.block:hover {
+  cursor: pointer;
+  border-color: green;
+}
