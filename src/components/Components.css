@@ -1,18 +1,21 @@
-
 .header {
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid orange;
+  color:white;
 }
 
 .block {
-  margin: 1% auto;
-  width: 60%;
+  margin: 3% auto;
+  width: 25%;
   padding: 1%;
-  border: 2px solid blue;
-  border-radius: 5px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  background: repeating-linear-gradient(rgb(45, 51, 72), rgb(45, 51, 72) 0.163825%, rgb(147, 57, 244) 0.163825%, rgb(16, 95, 176) 100%);
+  color: white;
 }
 
 .block:hover {
   cursor: pointer;
-  border-color: green;
+  border-color: orange;
 }
